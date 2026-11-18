@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Conditional Sentence! 🚀 - Kuis Bahasa Inggris SMP</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Plus Jakarta Sans & Fredoka untuk kesan ceria dan modern -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Canvas Confetti untuk efek perayaan -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 50%, #F3E8FF 100%);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        h1, h2, h3, .font-display {
+            font-family: 'Fredoka', sans-serif;
+        }
+        /* Animasi halus */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-8px); }
+        }
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes popIn {
+            0% { opacity: 0; transform: scale(0.92) translateY(10px); }
+            100% { opacity: 1; transform: scale(1) translateY(0); }
+        }
+        .animate-pop {
+            animation: popIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #c7d2fe;
+            border-radius: 9999px;
+        }
+        /* Pengaturan khusus saat mencetak rapor */
+        @media print {
+            body {
+                background: white !important;
+                padding: 0 !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .print-only-card {
+                box-shadow: none !important;
+                border: 2px solid #e2e8f0 !important;
+                margin: 0 !important;
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased selection:bg-indigo-200 selection:text-indigo-900">
+
+    <!-- Dekorasi Latar Belakang -->
+    <div class="fixed inset-0 pointer-events-none overflow-hidden z-0 no-print">
+        <div class="absolute -top-24 -left-24 w-72 h-72 bg-purple-300/30 rounded-full blur-3xl"></div>
+        <div class="absolute top-1/3 -right-24 w-80 h-80 bg-blue-300/30 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-24 left-1/3 w-80 h-80 bg-emerald-200/40 rounded-full blur-3xl"></div>
+    </div>
+
+    <!-- Container Utama -->
+    <div class="relative z-10 max-w-3xl mx-auto px-4 py-6 sm:py-10">
+
+        <!-- ================= HALAMAN 1: WELCOME / MULAI ================= -->
+        <section id="screen-start" class="animate-pop">
+            <div class="bg-white/90 backdrop-blur-md rounded-3xl shadow-xl shadow-indigo-100/80 border border-white p-6 sm:p-10">
+                <!-- Header Badge -->
+                <div class="flex justify-center mb-4">
+                    <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-100 text-indigo-700 font-bold text-xs sm:text-sm tracking-wide">
+                        <span>🇬🇧 ENGLISH GRAMMAR CHALLENGE</span>
+                        <span class="px-2 py-0.5 bg-indigo-600 text-white rounded-full text-xs">SMP</span>
+                    </span>
+                </div>
+
+                <!-- Judul Utama -->
+                <div class="text-center mb-8">
+                    <div class="text-5xl sm:text-6xl mb-3 animate-float inline-block">🚀</div>
+                    <h1 class="text-3xl sm:text-5xl font-bold text-slate-900 tracking-tight mb-3">
+                        Master <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500">Conditional Sentence!</span>
+                    </h1>
+                    <p class="text-slate-600 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
+                        Siap uji kemampuan bahasa Inggrismu? Yuk taklukkan <strong>15 soal seru</strong> tentang kalimat pengandaian yang masih mungkin terjadi vs khayalan tingkat tinggi!
+                    </p>
+                </div>
+
+                <!-- Kartu Materi Singkat (Cheatsheet Santai) -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                    <!-- Type 1 Card -->
+                    <div class="bg-gradient-to-br from-emerald-50 to-teal-50 border-2 border-emerald-200 rounded-2xl p-4 sm:p-5 transition hover:shadow-md">
+                        <div class="flex items-center gap-2.5 mb-2">
+                            <span class="w-9 h-9 rounded-xl bg-emerald-500 text-white flex items-center justify-center font-bold text-lg shadow-sm">1</span>
+                            <div>
+                                <h3 class="font-bold text-emerald-900 text-base sm:text-lg leading-tight">Type 1: Masih Mungkin</h3>
+                                <span class="text-xs font-semibold text-emerald-600">Real Possibility 🎯</span>
+                            </div>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 mb-3 leading-relaxed">
+                            Dipakai buat rencana atau hal yang <strong>peluang terjadinya besar</strong> di masa depan kalau syaratnya terpenuhi.
+                        </p>
+                        <div class="bg-white/80 rounded-xl p-2.5 text-xs font-mono text-emerald-800 border border-emerald-100">
+                            <strong>If + V1 (Present)</strong>, S + <strong>will + V1</strong>
+                        </div>
+                    </div>
+
+                    <!-- Type 2 Card -->
+                    <div class="bg-gradient-to-br from-purple-50 to-fuchsia-50 border-2 border-purple-200 rounded-2xl p-4 sm:p-5 transition hover:shadow-md">
+                        <div class="flex items-center gap-2.5 mb-2">
+                            <span class="w-9 h-9 rounded-xl bg-purple-600 text-white flex items-center justify-center font-bold text-lg shadow-sm">2</span>
+                            <div>
+                                <h3 class="font-bold text-purple-900 text-base sm:text-lg leading-tight">Type 2: Nggak Mungkin</h3>
+                                <span class="text-xs font-semibold text-purple-600">Imaginary / Khayalan 🦄</span>
+                            </div>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 mb-3 leading-relaxed">
+                            Dipakai buat berandai-andai hal yang <strong>mustahil atau bertentangan</strong> dengan kenyataan sekarang.
+                        </p>
+                        <div class="bg-white/80 rounded-xl p-2.5 text-xs font-mono text-purple-800 border border-purple-100">
+                            <strong>If + V2 / were</strong>, S + <strong>would + V1</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Input Nama Siswa -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-5 sm:p-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
+                        <div class="sm:col-span-2">
+                            <label for="student-name" class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">
+                                Nama Lengkap Kamu <span class="text-rose-500">*</span>
+                            </label>
+                            <input type="text" id="student-name" placeholder="Contoh: Raka Pratama" 
+                                class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100 outline-none font-semibold text-slate-800 transition bg-white">
+                        </div>
+                        <div>
+                            <label for="student-class" class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">
+                                Kelas (Opsional)
+                            </label>
+                            <input type="text" id="student-class" placeholder="Contoh: 9B" 
+                                class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100 outline-none font-semibold text-slate-800 transition bg-white">
+                        </div>
+                    </div>
+
+                    <!-- Pesan Error Validasi (Pengganti alert) -->
+                    <div id="start-error" class="hidden mb-4 px-4 py-2.5 rounded-xl bg-rose-50 border border-rose-200 text-rose-600 text-sm font-semibold flex items-center gap-2">
+                        <span>⚠️</span>
+                        <span>Eits, isi nama kamu dulu ya sebelum mulai kuis!</span>
+                    </div>
+
+                    <button onclick="startQuiz()" 
+                        class="w-full py-4 px-6 rounded-2xl bg-gradient-to-r from-indigo-600 via-blue-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-display font-bold text-lg sm:text-xl shadow-lg shadow-indigo-200 hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 transition-all flex items-center justify-center gap-2 cursor-pointer">
+                        <span>Mulai Kuis Sekarang</span>
+                        <span class="text-2xl">⚡</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= HALAMAN 2: KUIS INTERAKTIF ================= -->
+        <section id="screen-quiz" class="hidden">
+            <!-- Top Bar: Info Siswa & Progress -->
+            <div class="bg-white/90 backdrop-blur-md rounded-2xl shadow-sm border border-white p-4 mb-5">
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <div class="flex items-center gap-2">
+                        <span class="w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-sm">🧑‍🎓</span>
+                        <div>
+                            <p id="display-student-name" class="font-bold text-sm text-slate-800 leading-none">Siswa</p>
+                            <p id="display-student-class" class="text-xs text-slate-500 mt-0.5">Kelas -</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="px-3 py-1 rounded-full bg-amber-100 text-amber-800 font-bold text-xs sm:text-sm">
+                            ⭐ Benar: <span id="live-score">0</span>
+                        </span>
+                        <span class="px-3 py-1 rounded-full bg-indigo-600 text-white font-bold text-xs sm:text-sm">
+                            Soal <span id="question-number">1</span> / 15
+                        </span>
+                    </div>
+                </div>
+                <!-- Progress Bar -->
+                <div class="w-full h-3 bg-slate-100 rounded-full overflow-hidden p-0.5">
+                    <div id="progress-bar" class="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full transition-all duration-500" style="width: 6.66%"></div>
+                </div>
+            </div>
+
+            <!-- Kartu Soal -->
+            <div id="question-card" class="bg-white rounded-3xl shadow-xl shadow-indigo-100/70 border border-white p-6 sm:p-8 animate-pop">
+                <!-- Badge Kategori & Tipe Soal -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-5">
+                    <span id="q-category-badge" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-blue-50 text-blue-700 font-bold text-xs sm:text-sm border border-blue-100">
+                        🎮 Tema: Gaming & Hobi
+                    </span>
+                    <span id="q-type-hint" class="inline-flex items-center gap-1 px-3 py-1 rounded-xl bg-slate-100 text-slate-600 font-semibold text-xs">
+                        💡 Lengkapi Kalimat
+                    </span>
+                </div>
+
+                <!-- Konteks / Cerita Singkat -->
+                <p id="q-context" class="text-xs sm:text-sm font-medium text-slate-500 mb-2 italic">
+                    Konteks: Kamu dan temanmu berencana mabar nanti malam.
+                </p>
+
+                <!-- Pertanyaan Utama -->
+                <h2 id="q-text" class="text-lg sm:text-2xl font-bold text-slate-900 leading-snug mb-6 bg-slate-50/80 p-4 sm:p-5 rounded-2xl border border-slate-100">
+                    If I ______ my homework before 7 PM, I will join your squad tonight.
+                </h2>
+
+                <!-- Pilihan Jawaban (A, B, C, D) -->
+                <div id="options-container" class="space-y-3">
+                    <!-- Opsi di-generate lewat JS -->
+                </div>
+
+                <!-- Kotak Feedback & Pembahasan Instan -->
+                <div id="feedback-box" class="hidden mt-6 rounded-2xl p-5 border-2 transition-all animate-pop">
+                    <div class="flex items-start gap-3">
+                        <div id="feedback-icon" class="text-3xl shrink-0 mt-0.5">🎉</div>
+                        <div class="flex-1">
+                            <h4 id="feedback-title" class="font-display font-bold text-lg mb-1">Mantap! Jawabanmu Benar!</h4>
+                            <p id="feedback-explanation" class="text-sm leading-relaxed text-slate-700">
+                                Penjelasan grammar muncul di sini...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tombol Navigasi Soal -->
+                <div class="mt-6 flex justify-end">
+                    <button id="btn-next" onclick="nextQuestion()" class="hidden w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-display font-bold text-base sm:text-lg shadow-md shadow-indigo-200 transition-all flex items-center justify-center gap-2 cursor-pointer">
+                        <span id="btn-next-text">Soal Selanjutnya</span>
+                        <span>➡️</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= HALAMAN 3: HASIL & PENILAIAN MANUAL ================= -->
+        <section id="screen-result" class="hidden animate-pop">
+            
+            <!-- KARTU RAPOR UTAMA (Bisa dicetak) -->
+            <div class="print-only-card bg-white rounded-3xl shadow-xl shadow-indigo-100/80 border border-white p-6 sm:p-9 mb-6">
+                <!-- Header Rapor -->
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b-2 border-dashed border-slate-200">
+                    <div>
+                        <span class="inline-block px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 font-bold text-xs mb-2">
+                            📊 LAPORAN HASIL BELAJAR & EVALUASI
+                        </span>
+                        <h1 class="text-2xl sm:text-3xl font-bold text-slate-900">Kuis Conditional Sentence</h1>
+                        <p class="text-sm text-slate-500 mt-1">
+                            Siswa: <strong id="res-name" class="text-slate-800">-</strong> • 
+                            Kelas: <strong id="res-class" class="text-slate-800">-</strong> • 
+                            <span id="res-date">-</span>
+                        </p>
+                    </div>
+                    <!-- Badge Julukan -->
+                    <div id="badge-container" class="bg-gradient-to-br from-amber-100 to-yellow-200 border-2 border-amber-300 rounded-2xl px-4 py-3 text-center shrink-0">
+                        <div id="res-badge-icon" class="text-3xl mb-0.5">🏆</div>
+                        <div id="res-badge-title" class="font-display font-bold text-amber-900 text-sm sm:text-base">Grammar Legend!</div>
+                    </div>
+                </div>
+
+                <!-- Ringkasan Skor Otomatis & Skor Akhir (Setelah Penyesuaian Manual) -->
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 my-6">
+                    <div class="bg-slate-50 rounded-2xl p-4 text-center border border-slate-100">
+                        <p class="text-xs font-bold text-slate-400 uppercase">Skor Kuis</p>
+                        <p id="res-auto-score" class="text-2xl sm:text-3xl font-extrabold text-indigo-600 mt-1">0</p>
+                        <p class="text-[11px] text-slate-500 mt-0.5">Otomatis (0-100)</p>
+                    </div>
+                    <div class="bg-emerald-50 rounded-2xl p-4 text-center border border-emerald-100">
+                        <p class="text-xs font-bold text-emerald-600 uppercase">Benar / Salah</p>
+                        <p class="text-2xl sm:text-3xl font-extrabold text-emerald-700 mt-1">
+                            <span id="res-correct">0</span><span class="text-base font-semibold text-slate-400">/<span id="res-wrong">0</span></span>
+                        </p>
+                        <p class="text-[11px] text-emerald-600 mt-0.5">Dari 15 Soal</p>
+                    </div>
+                    <div class="bg-purple-50 rounded-2xl p-4 text-center border border-purple-100">
+                        <p class="text-xs font-bold text-purple-600 uppercase">Poin Manual</p>
+                        <p id="res-manual-bonus" class="text-2xl sm:text-3xl font-extrabold text-purple-700 mt-1">+0</p>
+                        <p class="text-[11px] text-purple-600 mt-0.5">Koreksi / Bonus</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-indigo-600 to-purple-600 rounded-2xl p-4 text-center text-white shadow-md">
+                        <p class="text-xs font-bold text-indigo-100 uppercase">Nilai Akhir</p>
+                        <p id="res-final-score" class="text-3xl sm:text-4xl font-extrabold mt-0.5">0</p>
+                        <p id="res-grade-letter" class="text-xs font-bold bg-white/20 rounded-full px-2 py-0.5 inline-block mt-1">Predikat: A</p>
+                    </div>
+                </div>
+
+                <!-- Analisis Per Tipe (Type 1 vs Type 2) -->
+                <div class="bg-slate-50 rounded-2xl p-4 sm:p-5 border border-slate-200/70 mb-6">
+                    <h3 class="font-bold text-sm text-slate-700 mb-3 flex items-center gap-2">
+                        <span>📈</span> Analisis Penguasaan Materi:
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <div class="flex justify-between text-xs font-bold mb-1">
+                                <span class="text-emerald-700">Type 1 (Masih Mungkin Terjadi)</span>
+                                <span id="stat-type1-text" class="text-emerald-700">0/8 Benar</span>
+                            </div>
+                            <div class="w-full h-2.5 bg-emerald-100 rounded-full overflow-hidden">
+                                <div id="stat-type1-bar" class="h-full bg-emerald-500 rounded-full" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-xs font-bold mb-1">
+                                <span class="text-purple-700">Type 2 (Khayalan / Nggak Mungkin)</span>
+                                <span id="stat-type2-text" class="text-purple-700">0/7 Benar</span>
+                            </div>
+                            <div class="w-full h-2.5 bg-purple-100 rounded-full overflow-hidden">
+                                <div id="stat-type2-bar" class="h-full bg-purple-600 rounded-full" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tampilan Hasil Evaluasi Manual di Rapor -->
+                <div class="rounded-2xl border-2 border-indigo-100 bg-indigo-50/40 p-5">
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="font-display font-bold text-base sm:text-lg text-indigo-950 flex items-center gap-2">
+                            <span>✍️</span> Catatan & Evaluasi Manual
+                        </h3>
+                        <span id="manual-status-badge" class="text-xs font-bold px-2.5 py-1 rounded-full bg-amber-100 text-amber-800">
+                            Menunggu Penilaian
+                        </span>
+                    </div>
+
+                    <!-- Checklist Pemahaman yang tampil di rapor -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4 text-xs sm:text-sm">
+                        <div class="flex items-center gap-2 bg-white px-3 py-2 rounded-xl border border-indigo-100">
+                            <span id="view-check-1">⬜</span>
+                            <span>Paham rumus <strong>Type 1</strong> (If + V1, will + V1)</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white px-3 py-2 rounded-xl border border-indigo-100">
+                            <span id="view-check-2">⬜</span>
+                            <span>Paham rumus <strong>Type 2</strong> (If + V2/were, would + V1)</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white px-3 py-2 rounded-xl border border-indigo-100">
+                            <span id="view-check-3">⬜</span>
+                            <span>Bisa membedakan situasi nyata vs khayalan</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-white px-3 py-2 rounded-xl border border-indigo-100">
+                            <span id="view-check-4">⬜</span>
+                            <span>Aktif & teliti saat mengerjakan kuis</span>
+                        </div>
+                    </div>
+
+                    <!-- Komentar Guru/Penilai -->
+                    <div class="bg-white rounded-xl p-4 border border-indigo-100 mb-3">
+                        <p class="text-xs font-bold text-slate-400 uppercase mb-1">Komentar / Feedback Penilai:</p>
+                        <p id="view-manual-comment" class="text-sm text-slate-700 italic">
+                            Belum ada catatan tambahan. Silakan isi panel penilaian manual di bawah.
+                        </p>
+                    </div>
+
+                    <!-- Tanda tangan / Nama Penilai -->
+                    <div class="flex flex-wrap items-center justify-between text-xs text-slate-600 pt-2">
+                        <span>Peran Penilai: <strong id="view-evaluator-role">-</strong></span>
+                        <span>Nama Penilai / Paraf: <strong id="view-evaluator-name" class="text-indigo-700 underline decoration-dotted">________________</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= PANEL INTERAKTIF PENILAIAN MANUAL ================= -->
+            <div class="no-print bg-white rounded-3xl shadow-xl shadow-purple-100/70 border-2 border-purple-200 p-6 sm:p-8 mb-6">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-11 h-11 rounded-2xl bg-purple-600 text-white flex items-center justify-center text-xl shadow-md">
+                        📝
+                    </div>
+                    <div>
+                        <h2 class="font-display font-bold text-xl text-slate-900">Panel Penilaian Manual</h2>
+                        <p class="text-xs sm:text-sm text-slate-500">Diisi oleh Guru, Orang Tua, atau Siswa (Self-Assessment) untuk melengkapi rapor di atas.</p>
+                    </div>
+                </div>
+
+                <div class="space-y-5">
+                    <!-- Baris 1: Peran & Nama Penilai -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 uppercase mb-1.5">Siapa yang menilai?</label>
+                            <select id="input-evaluator-role" onchange="updateManualAssessment()" 
+                                class="w-full px-4 py-2.5 rounded-xl border-2 border-slate-200 focus:border-purple-500 outline-none text-sm font-semibold bg-slate-50">
+                                <option value="Guru Bahasa Inggris">👩‍🏫 Guru Bahasa Inggris</option>
+                                <option value="Orang Tua / Wali">👨‍👩‍👧 Orang Tua / Wali</option>
+                                <option value="Self-Assessment (Siswa)">🙋‍♂️ Self-Assessment (Nilai Diri Sendiri)</option>
+                                <option value="Teman Sebaya (Peer Review)">🤝 Teman Sebaya</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 uppercase mb-1.5">Nama Penilai</label>
+                            <input type="text" id="input-evaluator-name" oninput="updateManualAssessment()" placeholder="Contoh: Miss Sarah / Ibu Budi" 
+                                class="w-full px-4 py-2.5 rounded-xl border-2 border-slate-200 focus:border-purple-500 outline-none text-sm font-semibold">
+                        </div>
+                    </div>
+
+                    <!-- Baris 2: Penyesuaian Skor / Poin Bonus Manual -->
+                    <div class="bg-purple-50/70 rounded-2xl p-4 border border-purple-100">
+                        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                            <label for="input-manual-bonus" class="text-xs sm:text-sm font-bold text-purple-950">
+                                🎯 Penyesuaian Poin Manual (Koreksi / Bonus Keaktifan):
+                            </label>
+                            <span id="bonus-badge-display" class="px-3 py-1 rounded-full bg-purple-600 text-white font-bold text-xs">
+                                0 Poin
+                            </span>
+                        </div>
+                        <input type="range" id="input-manual-bonus" min="-20" max="20" value="0" step="1" oninput="updateManualAssessment()" 
+                            class="w-full accent-purple-600 cursor-pointer">
+                        <div class="flex justify-between text-[11px] font-semibold text-slate-500 mt-1">
+                            <span>-20 (Pengurangan)</span>
+                            <span>0 (Netral)</span>
+                            <span>+20 (Bonus Maksimal)</span>
+                        </div>
+                    </div>
+
+                    <!-- Baris 3: Checklist Kompetensi -->
+                    <div>
+                        <label class="block text-xs font-bold text-slate-600 uppercase mb-2">Checklist Pemahaman Siswa:</label>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                            <label class="flex items-center gap-2.5 p-3 rounded-xl border border-slate-200 hover:bg-slate-50 cursor-pointer text-xs sm:text-sm font-medium">
+                                <input type="checkbox" id="chk-1" onchange="updateManualAssessment()" class="w-4 h-4 accent-purple-600 rounded">
+                                <span>Menguasai pola Type 1 (Present + Will)</span>
+                            </label>
+                            <label class="flex items-center gap-2.5 p-3 rounded-xl border border-slate-200 hover:bg-slate-50 cursor-pointer text-xs sm:text-sm font-medium">
+                                <input type="checkbox" id="chk-2" onchange="updateManualAssessment()" class="w-4 h-4 accent-purple-600 rounded">
+                                <span>Menguasai pola Type 2 (Past + Would)</span>
+                            </label>
+                            <label class="flex items-center gap-2.5 p-3 rounded-xl border border-slate-200 hover:bg-slate-50 cursor-pointer text-xs sm:text-sm font-medium">
+                                <input type="checkbox" id="chk-3" onchange="updateManualAssessment()" class="w-4 h-4 accent-purple-600 rounded">
+                                <span>Tepat membedakan fakta vs khayalan</span>
+                            </label>
+                            <label class="flex items-center gap-2.5 p-3 rounded-xl border border-slate-200 hover:bg-slate-50 cursor-pointer text-xs sm:text-sm font-medium">
+                                <input type="checkbox" id="chk-4" onchange="updateManualAssessment()" class="w-4 h-4 accent-purple-600 rounded">
+                                <span>Mengerjakan dengan jujur & teliti</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Baris 4: Komentar / Catatan Manual -->
+                    <div>
+                        <label for="input-manual-comment" class="block text-xs font-bold text-slate-600 uppercase mb-1.5">
+                            Catatan / Saran Belajar untuk Siswa:
+                        </label>
+                        <textarea id="input-manual-comment" rows="3" oninput="updateManualAssessment()" 
+                            placeholder="Tuliskan apresiasi atau bagian materi yang perlu dipelajari lagi..." 
+                            class="w-full px-4 py-3 rounded-xl border-2 border-slate-200 focus:border-purple-500 outline-none text-sm"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review Jawaban Lengkap (Accordion / Toggle) -->
+            <div class="no-print bg-white rounded-3xl shadow-md border border-slate-100 p-6 mb-6">
+                <button onclick="toggleReviewList()" class="w-full flex items-center justify-between text-left font-display font-bold text-lg text-slate-800 cursor-pointer">
+                    <span class="flex items-center gap-2">🔍 Lihat Pembahasan Semua Soal (1-15)</span>
+                    <span id="review-arrow" class="text-indigo-600 text-xl transition-transform">▼</span>
+                </button>
+                <div id="review-list-container" class="hidden mt-4 space-y-3 pt-4 border-t border-slate-100">
+                    <!-- Diisi lewat JS -->
+                </div>
+            </div>
+
+            <!-- Tombol Aksi Akhir -->
+            <div class="no-print flex flex-col sm:flex-row gap-3">
+                <button onclick="window.print()" 
+                    class="flex-1 py-4 px-6 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-display font-bold text-base sm:text-lg shadow-lg shadow-emerald-200 transition flex items-center justify-center gap-2 cursor-pointer">
+                    <span>🖨️</span>
+                    <span>Cetak / Simpan Rapor (PDF)</span>
+                </button>
+                <button onclick="resetQuiz()" 
+                    class="flex-1 py-4 px-6 rounded-2xl bg-white hover:bg-slate-50 text-slate-700 border-2 border-slate-200 font-display font-bold text-base sm:text-lg transition flex items-center justify-center gap-2 cursor-pointer">
+                    <span>🔄</span>
+                    <span>Ulangi Kuis dari Awal</span>
+                </button>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- ================= JAVASCRIPT LOGIC ================= -->
+    <script>
+        // Database 15 Soal Conditional Sentence (8 Type 1 + 7 Type 2)
+        // Variasi: Melengkapi kalimat, Memperbaiki kesalahan grammar, dan Menentukan makna kalimat
+        const quizQuestions = [
+            {
+                id: 1,
+                type: 1,
+                category: "🎮 Gaming & Hobi",
+                taskType: "Lengkapi Kalimat",
+                context: "Kamu janji sama teman mabar kalau PR selesai sebelum jam 7 malam.",
+                question: "If I ______ my homework before 7 PM, I will join your squad tonight.",
+                options: [
+                    "finish",
+                    "finished",
+                    "will finish",
+                    "finishing"
+                ],
+                correct: 0,
+                explanation: "Ini adalah <strong>Type 1 (Masih Mungkin Terjadi)</strong> karena ada kata <em>'will join'</em>. Rumusnya: <strong>If + Simple Present (V1)</strong>. Karena subjeknya <em>I</em>, pakai <strong>finish</strong>."
+            },
+            {
+                id: 2,
+                type: 2,
+                category: "🦸‍♂️ Superhero & Imajinasi",
+                taskType: "Lengkapi Kalimat",
+                context: "Kenyataannya kamu manusia biasa, bukan Spider-Man.",
+                question: "If I ______ Spider-Man, I would swing across the city every morning to go to school!",
+                options: [
+                    "am",
+                    "was",
+                    "were",
+                    "will be"
+                ],
+                correct: 2,
+                explanation: "Ini adalah <strong>Type 2 (Khayalan / Nggak Mungkin)</strong>. Dalam grammar formal Conditional Type 2, to be untuk semua subjek (termasuk <em>I, he, she</em>) menggunakan <strong>were</strong>!"
+            },
+            {
+                id: 3,
+                type: 1,
+                category: "🌧️ Cuaca & Sekolah",
+                taskType: "Lengkapi Kalimat",
+                context: "Langit mulai mendung dan kamu mau berangkat sekolah naik sepeda.",
+                question: "If it ______ heavily this afternoon, my dad will pick me up at school.",
+                options: [
+                    "rain",
+                    "rains",
+                    "rained",
+                    "will rain"
+                ],
+                correct: 1,
+                explanation: "Kondisi ini <strong>masih mungkin terjadi (Type 1)</strong>. Subjek klausa <em>If</em> adalah <em>it</em> (orang ketiga tunggal), jadi kata kerjanya ditambah <em>-s</em> menjadi <strong>rains</strong>."
+            },
+            {
+                id: 4,
+                type: 2,
+                category: "🐾 Hewan Peliharaan",
+                taskType: "Lengkapi Kalimat",
+                context: "Kucing peliharaanmu cuma bisa mengeong dan tidur seharian.",
+                question: "If my cat could talk, he ______ me for extra tuna snacks every hour.",
+                options: [
+                    "will ask",
+                    "asks",
+                    "asked",
+                    "would ask"
+                ],
+                correct: 3,
+                explanation: "Kucing nggak mungkin bisa ngomong bahasa manusia, jadi ini <strong>Type 2 (Imajinasi)</strong>. Pasangan dari <em>If + V2 (could)</em> adalah <strong>would + V1 (would ask)</strong>."
+            },
+            {
+                id: 5,
+                type: 1,
+                category: "🍜 Jajan di Kantin",
+                taskType: "Perbaiki Kesalahan Grammar",
+                context: "Perhatikan kalimat rencana jajan bakso di jam istirahat berikut:",
+                question: "Manakah perbaikan yang TEPAT untuk kalimat: <em>'If we will go to the canteen late, we won't get any meatballs.'</em>?",
+                options: [
+                    "Ubah 'will go' menjadi 'go'",
+                    "Ubah 'won't get' menjadi 'wouldn't get'",
+                    "Ubah 'will go' menjadi 'went'",
+                    "Kalimat tersebut sudah benar"
+                ],
+                correct: 0,
+                explanation: "Ingat aturan emas! Kata <strong>will</strong> tidak boleh diletakkan langsung setelah <em>If</em>. Karena kejadiannya masih mungkin (Type 1), ubah <em>'will go'</em> menjadi Simple Present: <strong>go</strong>."
+            },
+            {
+                id: 6,
+                type: 2,
+                category: "💰 Uang Saku & Liburan",
+                taskType: "Menentukan Makna Kalimat",
+                context: "Bacalah kalimat berikut dengan teliti:",
+                question: "<em>'If I had 100 million rupiah right now, I would buy a gaming PC and treat my whole class.'</em> — Apa makna sebenarnya dari kalimat ini?",
+                options: [
+                    "Aku punya uang 100 juta dan akan segera mentraktir teman sekelas.",
+                    "Aku tidak punya uang 100 juta sekarang, jadi aku hanya berkhayal.",
+                    "Kemarin aku sudah membeli PC gaming untuk teman sekelasku.",
+                    "Aku yakin besok akan mendapat uang 100 juta."
+                ],
+                correct: 1,
+                explanation: "Penggunaan <em>If + had (V2)</em> dan <em>would buy</em> menandakan <strong>Type 2 (Unreal Present)</strong>. Artinya, fakta saat ini berkebalikan: kamu <strong>nggak punya</strong> uang 100 juta sekarang."
+            },
+            {
+                id: 7,
+                type: 1,
+                category: "📱 Gadget & Kuota",
+                taskType: "Lengkapi Kalimat",
+                context: "Baterai HP kamu tinggal 5% dan kamu lupa bawa charger.",
+                question: "Your phone ______ off soon if you don't turn on the battery saver mode.",
+                options: [
+                    "turned",
+                    "would turn",
+                    "will turn",
+                    "turns"
+                ],
+                correct: 2,
+                explanation: "Posisi <em>If</em> dibalik ke belakang (tanpa koma), tapi rumusnya tetap sama! Karena ini peringatan nyata yang mungkin terjadi (Type 1), bagian utama memakai <strong>will turn</strong>."
+            },
+            {
+                id: 8,
+                type: 2,
+                category: "⏰ Bangun Kesiangan",
+                taskType: "Lengkapi Kalimat",
+                context: "Faktanya rumahmu jauh banget dari sekolah (10 km).",
+                question: "If I ______ near the school, I wouldn't have to wake up at 5 AM every day.",
+                options: [
+                    "live",
+                    "lived",
+                    "will live",
+                    "am living"
+                ],
+                correct: 1,
+                explanation: "Kenyataannya rumahmu jauh, jadi berandai-andai tinggal dekat sekolah masuk ke <strong>Type 2</strong>. Rumusnya butuh Verb 2 (Past Tense), yaitu <strong>lived</strong>."
+            },
+            {
+                id: 9,
+                type: 1,
+                category: "📚 Ujian Matematika",
+                taskType: "Menentukan Makna Kalimat",
+                context: "Guru matematikamu memberikan motivasi sebelum ujian minggu depan:",
+                question: "<em>'If you practice these math formulas every day, you will pass the exam easily.'</em> — Kondisi ini termasuk...",
+                options: [
+                    "Hal yang mustahil terjadi karena matematika terlalu sulit.",
+                    "Penyesalan atas ujian yang sudah lewat minggu lalu.",
+                    "Kondisi yang sangat mungkin terjadi jika siswa rajin berlatih.",
+                    "Khayalan tingkat tinggi yang tidak masuk akal."
+                ],
+                correct: 2,
+                explanation: "Pola <em>If + V1 (practice)</em> dan <em>will + V1 (will pass)</em> adalah <strong>Type 1</strong>, yang menunjukkan hubungan sebab-akibat nyata dan <strong>sangat mungkin terjadi</strong>."
+            },
+            {
+                id: 10,
+                type: 2,
+                category: "🦖 Mesin Waktu",
+                taskType: "Perbaiki Kesalahan Grammar",
+                context: "Temanmu menulis kalimat khayalan tentang dinosaurus:",
+                question: "Temukan kesalahan pada kalimat ini: <em>'If dinosaurs are still alive today, humans will be in big trouble.'</em> (Kenyataannya dinosaurus sudah punah).",
+                options: [
+                    "Ganti 'are' menjadi 'were' dan 'will be' menjadi 'would be'",
+                    "Ganti 'are' menjadi 'is' karena dinosaurs jamak",
+                    "Ganti 'will be' menjadi 'was'",
+                    "Tidak ada kesalahan sama sekali"
+                ],
+                correct: 0,
+                explanation: "Karena dinosaurus sudah punah (mustahil hidup hari ini), kita wajib memakai <strong>Type 2</strong>: ubah <em>are</em> menjadi <strong>were</strong>, dan <em>will be</em> menjadi <strong>would be</strong>."
+            },
+            {
+                id: 11,
+                type: 1,
+                category: "🎸 Ekstrakurikuler Musik",
+                taskType: "Lengkapi Kalimat",
+                context: "Band sekolahmu sedang latihan untuk pentas seni bulan depan.",
+                question: "If Bima ______ his guitar well during the audition, the judges will choose our band.",
+                options: [
+                    "play",
+                    "played",
+                    "plays",
+                    "would play"
+                ],
+                correct: 2,
+                explanation: "Audisinya belum terjadi dan peluang lolos masih terbuka lebar (<strong>Type 1</strong>). Subjeknya <em>Bima</em> (tunggal), jadi kata kerjanya memakai <strong>plays</strong>."
+            },
+            {
+                id: 12,
+                type: 2,
+                category: "👽 Alien & Luar Angkasa",
+                taskType: "Lengkapi Kalimat",
+                context: "Kamu sedang menatap bintang di malam hari sambil berkhayal.",
+                question: "What ______ you do if an alien spaceship landed in your backyard right now?",
+                options: [
+                    "will",
+                    "do",
+                    "did",
+                    "would"
+                ],
+                correct: 3,
+                explanation: "Perhatikan kata kerja setelah <em>if</em> adalah <em>landed (Verb 2)</em>. Ini kalimat tanya khayalan (<strong>Type 2</strong>), sehingga kata bantu yang tepat adalah <strong>would</strong>."
+            },
+            {
+                id: 13,
+                type: 1,
+                category: "⚽ Pertandingan Futsal",
+                taskType: "Lengkapi Kalimat",
+                context: "Skor sementara imbang 2-2 dan waktu tersisa 2 menit lagi.",
+                question: "We ______ the trophy if our striker scores one more goal!",
+                options: [
+                    "would win",
+                    "won",
+                    "will win",
+                    "winning"
+                ],
+                correct: 2,
+                explanation: "Pertandingan masih berlangsung dan mencetak 1 gol lagi sangat mungkin terjadi (<strong>Type 1</strong>). Maka pasangannya adalah <strong>will win</strong>."
+            },
+            {
+                id: 14,
+                type: 2,
+                category: "🧠 Kekuatan Super",
+                taskType: "Lengkapi Kalimat",
+                context: "Kamu berharap punya kemampuan membaca pikiran orang lain (kenyataannya tidak).",
+                question: "If I ______ the power to read minds, I would know all the answers to the teacher's questions.",
+                options: [
+                    "have",
+                    "had",
+                    "has",
+                    "will have"
+                ],
+                correct: 1,
+                explanation: "Membaca pikiran adalah kekuatan super yang tidak nyata (<strong>Type 2</strong>). Bentuk lampau (Verb 2) dari <em>have</em> adalah <strong>had</strong>."
+            },
+            {
+                id: 15,
+                type: 1,
+                category: "🏖️ Rencana Akhir Pekan",
+                taskType: "Lengkapi Kalimat",
+                context: "Orang tuamu berjanji mengajak ke pantai jika nilai rapormu bagus.",
+                question: "If my sister and I ______ good grades this semester, our parents will take us to Bali.",
+                options: [
+                    "get",
+                    "gets",
+                    "got",
+                    "would get"
+                ],
+                correct: 0,
+                explanation: "Ini adalah janji nyata yang masih bisa diusahakan (<strong>Type 1</strong>). Subjeknya jamak (<em>my sister and I</em> = we), jadi pakai Verb 1 tanpa -s: <strong>get</strong>."
+            }
+        ];
+
+        // State Aplikasi
+        let state = {
+            studentName: "",
+            studentClass: "",
+            currentIndex: 0,
+            scoreCount: 0,
+            answered: false,
+            userAnswers: [] // Menyimpan indeks pilihan user tiap soal
+        };
+
+        // Elemen DOM
+        const screenStart = document.getElementById('screen-start');
+        const screenQuiz = document.getElementById('screen-quiz');
+        const screenResult = document.getElementById('screen-result');
+
+        // Mulai Kuis
+        function startQuiz() {
+            const nameInput = document.getElementById('student-name').value.trim();
+            const classInput = document.getElementById('student-class').value.trim();
+            const errorBox = document.getElementById('start-error');
+
+            if (!nameInput) {
+                errorBox.classList.remove('hidden');
+                document.getElementById('student-name').focus();
+                return;
+            }
+
+            errorBox.classList.add('hidden');
+            state.studentName = nameInput;
+            state.studentClass = classInput || "SMP";
+            state.currentIndex = 0;
+            state.scoreCount = 0;
+            state.userAnswers = [];
+
+            // Set Info di Header Kuis
+            document.getElementById('display-student-name').textContent = state.studentName;
+            document.getElementById('display-student-class').textContent = `Kelas: ${state.studentClass}`;
+            document.getElementById('live-score').textContent = "0";
+
+            // Pindah layar
+            screenStart.classList.add('hidden');
+            screenResult.classList.add('hidden');
+            screenQuiz.classList.remove('hidden');
+
+            renderQuestion();
+        }
+
+        // Render Soal Saat Ini
+        function renderQuestion() {
+            const q = quizQuestions[state.currentIndex];
+            state.answered = false;
+
+            // Update Progress & Nomor
+            const qNum = state.currentIndex + 1;
+            document.getElementById('question-number').textContent = qNum;
+            const progressPercent = (qNum / quizQuestions.length) * 100;
+            document.getElementById('progress-bar').style.width = `${progressPercent}%`;
+
+            // Animasi ulang kartu soal
+            const card = document.getElementById('question-card');
+            card.classList.remove('animate-pop');
+            void card.offsetWidth; // trigger reflow
+            card.classList.add('animate-pop');
+
+            // Isi konten soal
+            document.getElementById('q-category-badge').textContent = q.category;
+            document.getElementById('q-type-hint').textContent = `💡 ${q.taskType}`;
+            document.getElementById('q-context').textContent = `Konteks: ${q.context}`;
+            document.getElementById('q-text').innerHTML = q.question;
+
+            // Sembunyikan feedback & tombol next
+            const feedbackBox = document.getElementById('feedback-box');
+            feedbackBox.classList.add('hidden');
+            document.getElementById('btn-next').classList.add('hidden');
+
+            // Render Opsi Jawaban
+            const optionsContainer = document.getElementById('options-container');
+            optionsContainer.innerHTML = '';
+            const letters = ['A', 'B', 'C', 'D'];
+
+            q.options.forEach((optText, idx) => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.id = `opt-btn-${idx}`;
+                btn.onclick = () => selectOption(idx);
+                btn.className = `w-full text-left p-4 rounded-2xl border-2 border-slate-200 hover:border-indigo-400 hover:bg-indigo-50/50 transition-all flex items-center gap-3.5 group cursor-pointer bg-white`;
+                
+                btn.innerHTML = `
+                    <span id="opt-letter-${idx}" class="w-9 h-9 rounded-xl bg-slate-100 group-hover:bg-indigo-600 group-hover:text-white text-slate-700 font-bold flex items-center justify-center shrink-0 transition-colors">
+                        ${letters[idx]}
+                    </span>
+                    <span class="font-semibold text-slate-800 text-sm sm:text-base flex-1">${optText}</span>
+                    <span id="opt-status-${idx}" class="text-xl hidden"></span>
+                `;
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        // Handle Pilihan Jawaban
+        function selectOption(selectedIndex) {
+            if (state.answered) return;
+            state.answered = true;
+
+            const q = quizQuestions[state.currentIndex];
+            const isCorrect = selectedIndex === q.correct;
+
+            state.userAnswers.push({
+                questionId: q.id,
+                selected: selectedIndex,
+                correct: q.correct,
+                isCorrect: isCorrect,
+                type: q.type
+            });
+
+            if (isCorrect) {
+                state.scoreCount++;
+                document.getElementById('live-score').textContent = state.scoreCount;
+            }
+
+            // Styling tombol jawaban
+            q.options.forEach((_, idx) => {
+                const btn = document.getElementById(`opt-btn-${idx}`);
+                const letterBadge = document.getElementById(`opt-letter-${idx}`);
+                const statusIcon = document.getElementById(`opt-status-${idx}`);
+                
+                btn.disabled = true;
+                btn.classList.remove('hover:border-indigo-400', 'hover:bg-indigo-50/50', 'cursor-pointer');
+
+                if (idx === q.correct) {
+                    btn.classList.remove('border-slate-200', 'bg-white');
+                    btn.classList.add('border-emerald-500', 'bg-emerald-50');
+                    letterBadge.classList.remove('bg-slate-100', 'text-slate-700');
+                    letterBadge.classList.add('bg-emerald-500', 'text-white');
+                    statusIcon.textContent = '✅';
+                    statusIcon.classList.remove('hidden');
+                } else if (idx === selectedIndex && !isCorrect) {
+                    btn.classList.remove('border-slate-200', 'bg-white');
+                    btn.classList.add('border-rose-400', 'bg-rose-50');
+                    letterBadge.classList.remove('bg-slate-100', 'text-slate-700');
+                    letterBadge.classList.add('bg-rose-500', 'text-white');
+                    statusIcon.textContent = '❌';
+                    statusIcon.classList.remove('hidden');
+                } else {
+                    btn.classList.add('opacity-60');
+                }
+            });
+
+            // Tampilkan Kotak Pembahasan
+            const feedbackBox = document.getElementById('feedback-box');
+            const feedbackIcon = document.getElementById('feedback-icon');
+            const feedbackTitle = document.getElementById('feedback-title');
+            const feedbackExp = document.getElementById('feedback-explanation');
+
+            feedbackBox.classList.remove('hidden', 'bg-emerald-50', 'border-emerald-300', 'bg-rose-50', 'border-rose-300');
+            
+            if (isCorrect) {
+                feedbackBox.classList.add('bg-emerald-50', 'border-emerald-300');
+                feedbackIcon.textContent = '🎉';
+                feedbackTitle.textContent = 'Keren! Jawabanmu Tepat!';
+                feedbackTitle.className = 'font-display font-bold text-lg mb-1 text-emerald-800';
+            } else {
+                feedbackBox.classList.add('bg-rose-50', 'border-rose-300');
+                feedbackIcon.textContent = '💡';
+                feedbackTitle.textContent = 'Ups, Kurang Tepat! Cek Rumusnya Yuk:';
+                feedbackTitle.className = 'font-display font-bold text-lg mb-1 text-rose-800';
+            }
+
+            const typeLabel = q.type === 1 
+                ? '<span class="inline-block px-2 py-0.5 rounded bg-emerald-200/70 text-emerald-900 font-bold text-xs mb-1">Type 1: Masih Mungkin</span><br>' 
+                : '<span class="inline-block px-2 py-0.5 rounded bg-purple-200/70 text-purple-900 font-bold text-xs mb-1">Type 2: Khayalan / Nggak Mungkin</span><br>';
+
+            feedbackExp.innerHTML = typeLabel + q.explanation;
+
+            // Tampilkan tombol Next
+            const btnNext = document.getElementById('btn-next');
+            const btnNextText = document.getElementById('btn-next-text');
+            btnNextText.textContent = state.currentIndex === quizQuestions.length - 1 
+                ? 'Lihat Hasil & Penilaian' 
+                : 'Soal Selanjutnya';
+            btnNext.classList.remove('hidden');
+        }
+
+        // Lanjut Soal Berikutnya
+        function nextQuestion() {
+            if (state.currentIndex < quizQuestions.length - 1) {
+                state.currentIndex++;
+                renderQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        // Tampilkan Halaman Akhir & Rapor
+        function showResults() {
+            screenQuiz.classList.add('hidden');
+            screenResult.classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            // Efek confetti meriah
+            if (typeof confetti === 'function') {
+                confetti({
+                    particleCount: 90,
+                    spread: 70,
+                    origin: { y: 0.6 }
+                });
+            }
+
+            // Tanggal hari ini
+            const today = new Date();
+            const optionsDate = { day: 'numeric', month: 'long', year: 'numeric' };
+            document.getElementById('res-date').textContent = today.toLocaleDateString('id-ID', optionsDate);
+            document.getElementById('res-name').textContent = state.studentName;
+            document.getElementById('res-class').textContent = state.studentClass;
+
+            // Hitung Statistik Type 1 & Type 2
+            const type1Total = quizQuestions.filter(q => q.type === 1).length;
+            const type2Total = quizQuestions.filter(q => q.type === 2).length;
+            const type1Correct = state.userAnswers.filter(a => a.type === 1 && a.isCorrect).length;
+            const type2Correct = state.userAnswers.filter(a => a.type === 2 && a.isCorrect).length;
+
+            document.getElementById('stat-type1-text').textContent = `${type1Correct}/${type1Total} Benar`;
+            document.getElementById('stat-type1-bar').style.width = `${(type1Correct / type1Total) * 100}%`;
+
+            document.getElementById('stat-type2-text').textContent = `${type2Correct}/${type2Total} Benar`;
+            document.getElementById('stat-type2-bar').style.width = `${(type2Correct / type2Total) * 100}%`;
+
+            // Hitung Skor Otomatis (Skala 0 - 100)
+            const autoScore = Math.round((state.scoreCount / quizQuestions.length) * 100);
+            const wrongCount = quizQuestions.length - state.scoreCount;
+
+            document.getElementById('res-auto-score').textContent = autoScore;
+            document.getElementById('res-correct').textContent = state.scoreCount;
+            document.getElementById('res-wrong').textContent = wrongCount;
+
+            // Render Daftar Review Soal
+            renderReviewList();
+
+            // Jalankan update penilaian manual untuk sinkronisasi nilai akhir
+            updateManualAssessment();
+        }
+
+        // Update Rapor Secara Real-Time dari Panel Penilaian Manual
+        function updateManualAssessment() {
+            const autoScore = Math.round((state.scoreCount / quizQuestions.length) * 100);
+            const bonusPoints = parseInt(document.getElementById('input-manual-bonus').value, 10) || 0;
+            
+            // Nilai akhir dibatasi minimal 0 dan maksimal 100
+            let finalScore = autoScore + bonusPoints;
+            if (finalScore > 100) finalScore = 100;
+            if (finalScore < 0) finalScore = 0;
+
+            // Tampilan Poin Bonus
+            const sign = bonusPoints > 0 ? '+' : '';
+            document.getElementById('bonus-badge-display').textContent = `${sign}${bonusPoints} Poin`;
+            document.getElementById('res-manual-bonus').textContent = `${sign}${bonusPoints}`;
+            document.getElementById('res-final-score').textContent = finalScore;
+
+            // Tentukan Predikat & Julukan Badge berdasarkan Nilai Akhir
+            let grade = 'C';
+            let badgeIcon = '💪';
+            let badgeTitle = 'Keep Practicing!';
+            let badgeBg = 'from-slate-100 to-slate-200 border-slate-300 text-slate-800';
+
+            if (finalScore >= 90) {
+                grade = 'A (Istimewa)';
+                badgeIcon = '🏆';
+                badgeTitle = 'Grammar Legend!';
+                badgeBg = 'from-amber-100 to-yellow-200 border-amber-300 text-amber-900';
+            } else if (finalScore >= 75) {
+                grade = 'B (Baik)';
+                badgeIcon = '🚀';
+                badgeTitle = 'Future Explorer!';
+                badgeBg = 'from-indigo-100 to-blue-200 border-indigo-300 text-indigo-900';
+            } else if (finalScore >= 60) {
+                grade = 'C (Cukup)';
+                badgeIcon = '🌟';
+                badgeTitle = 'Rising Star!';
+                badgeBg = 'from-emerald-100 to-teal-200 border-emerald-300 text-emerald-900';
+            } else {
+                grade = 'D (Perlu Bimbingan)';
+                badgeIcon = '📚';
+                badgeTitle = 'Never Give Up!';
+                badgeBg = 'from-rose-100 to-orange-100 border-rose-300 text-rose-900';
+            }
+
+            document.getElementById('res-grade-letter').textContent = `Predikat: ${grade}`;
+            document.getElementById('res-badge-icon').textContent = badgeIcon;
+            document.getElementById('res-badge-title').textContent = badgeTitle;
+            const badgeContainer = document.getElementById('badge-container');
+            badgeContainer.className = `bg-gradient-to-br ${badgeBg} border-2 rounded-2xl px-4 py-3 text-center shrink-0 transition-all`;
+
+            // Update Checklist di Rapor
+            for (let i = 1; i <= 4; i++) {
+                const isChecked = document.getElementById(`chk-${i}`).checked;
+                document.getElementById(`view-check-${i}`).textContent = isChecked ? '✅' : '⬜';
+            }
+
+            // Update Peran, Nama Penilai, dan Komentar
+            const role = document.getElementById('input-evaluator-role').value;
+            const evaluatorName = document.getElementById('input-evaluator-name').value.trim();
+            const comment = document.getElementById('input-manual-comment').value.trim();
+
+            document.getElementById('view-evaluator-role').textContent = role;
+            document.getElementById('view-evaluator-name').textContent = evaluatorName || '________________';
+            
+            const commentEl = document.getElementById('view-manual-comment');
+            if (comment) {
+                commentEl.textContent = `"${comment}"`;
+                commentEl.classList.remove('italic', 'text-slate-500');
+                commentEl.classList.add('text-slate-800', 'font-medium');
+            } else {
+                commentEl.textContent = 'Belum ada catatan tambahan. Silakan isi panel penilaian manual di bawah.';
+                commentEl.classList.add('italic', 'text-slate-500');
+            }
+
+            // Status Badge Penilaian Manual
+            const statusBadge = document.getElementById('manual-status-badge');
+            if (evaluatorName || comment || bonusPoints !== 0) {
+                statusBadge.textContent = '✅ Sudah Dinilai';
+                statusBadge.className = 'text-xs font-bold px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800';
+            } else {
+                statusBadge.textContent = '⏳ Menunggu Penilaian';
+                statusBadge.className = 'text-xs font-bold px-2.5 py-1 rounded-full bg-amber-100 text-amber-800';
+            }
+        }
+
+        // Render List Pembahasan di Halaman Akhir
+        function renderReviewList() {
+            const container = document.getElementById('review-list-container');
+            container.innerHTML = '';
+            const letters = ['A', 'B', 'C', 'D'];
+
+            quizQuestions.forEach((q, idx) => {
+                const ans = state.userAnswers[idx];
+                const isCorrect = ans ? ans.isCorrect : false;
+                const userChoiceText = ans ? `${letters[ans.selected]}. ${q.options[ans.selected]}` : '-';
+                const correctChoiceText = `${letters[q.correct]}. ${q.options[q.correct]}`;
+
+                const item = document.createElement('div');
+                item.className = `p-4 rounded-2xl border ${isCorrect ? 'bg-emerald-50/50 border-emerald-200' : 'bg-rose-50/50 border-rose-200'}`;
+                item.innerHTML = `
+                    <div class="flex items-start justify-between gap-2 mb-1.5">
+                        <span class="font-bold text-xs px-2.5 py-0.5 rounded-lg ${q.type === 1 ? 'bg-emerald-100 text-emerald-800' : 'bg-purple-100 text-purple-800'}">
+                            Soal #${q.id} • Type ${q.type}
+                        </span>
+                        <span class="text-xs font-bold ${isCorrect ? 'text-emerald-700' : 'text-rose-700'}">
+                            ${isCorrect ? '✅ Benar' : '❌ Salah'}
+                        </span>
+                    </div>
+                    <p class="font-bold text-sm text-slate-800 mb-2">${q.question}</p>
+                    <div class="text-xs space-y-1 mb-2">
+                        <p class="text-slate-600">Jawabanmu: <strong class="${isCorrect ? 'text-emerald-700' : 'text-rose-700'}">${userChoiceText}</strong></p>
+                        ${!isCorrect ? `<p class="text-emerald-700">Kunci Jawaban: <strong>${correctChoiceText}</strong></p>` : ''}
+                    </div>
+                    <p class="text-xs text-slate-600 bg-white/80 p-2.5 rounded-xl border border-slate-100">${q.explanation}</p>
+                `;
+                container.appendChild(item);
+            });
+        }
+
+        // Toggle Buka/Tutup Pembahasan Semua Soal
+        function toggleReviewList() {
+            const list = document.getElementById('review-list-container');
+            const arrow = document.getElementById('review-arrow');
+            list.classList.toggle('hidden');
+            arrow.style.transform = list.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
+        }
+
+        // Reset Kuis
+        function resetQuiz() {
+            document.getElementById('input-manual-bonus').value = 0;
+            document.getElementById('input-evaluator-name').value = '';
+            document.getElementById('input-manual-comment').value = '';
+            for (let i = 1; i <= 4; i++) {
+                document.getElementById(`chk-${i}`).checked = false;
+            }
+            screenResult.classList.add('hidden');
+            screenStart.classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
